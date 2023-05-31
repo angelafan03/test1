@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": ""
+  },
+  "text": {
+    "more": "How to read the network graph:\n\n- The size of each node/label and the thickness of the lines reflect how many applications that host country has sent out\n- Each node and line is color coded: Purple/Africa, Green/Americas, Blue/Asia, Orange/Europe, Teal/Middle East, Pink/Oceania\n- Each line has an arrow to show the host country pointing to the archival country, and lines are color coded by host country\n- Nodes with no lines going in or out represent countries that are their own host and archival country\n",
+    "intro": "C2 Stats\nTotal Applications: 88\n\nBy Host Region:\n\nAsia: 12\nAfrica: 15\nAmericas: 41\nMiddle East: 6\nEurope: 14\nOceania: 0\nApplications where host and archival country are the same: 59\n\nApplications where host and archival country are different: 29",
+    "title": ""
+  },
+  "legend": {
+    "edgeLabel": "",
+    "colorLabel": "Region",
+    "nodeLabel": "Country"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "attribute",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "attribute"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
